@@ -45,24 +45,15 @@ public:
     }
     
     BinarySearchTree *BST(int key){
-        BinarySearchTree *searchNode = new BinarySearchTree(key);
-        if(root==nullptr){
-            return NULL;
-        }
         BinarySearchTree *t = root;
-        while (t != NULL && t != searchNode){
-            if (searchNode < t)
+        while (t != NULL && t->val != key){
+            if (key < t->val)
               t = t->left;
             else
               t = t->right;
           }
-        if(t==searchNode){
-            cout<<t;
-            return t;
-        }
-        else
-            return NULL;
-        
+          cout<<t->val;
+          return t;
     }
     BinarySearchTree *getroot(){
         BinarySearchTree *roo1;
