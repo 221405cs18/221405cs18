@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @221405cs07
+- 👋 Hi, I’m Fayzulloh
 - 👀 My name is Asatullaev Fayzulloh
 - 🌱 I’m currently learning Computer Programming 
-- 📫 How to reach me 221405@akfauniversity.com
+- 📫 How to reach me asatullaevfajzulla62@gmailcom
 
 <!---
 221405cs18/221405cs18 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
